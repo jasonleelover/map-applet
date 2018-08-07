@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<map id="myMap" show-location scale="{{map_scale}}" style='width:100%;height:{{map_height}}' longitude="{{longitude}}" latitude="{{latitude}}" markers="{{markers}}" controls="{{controls}}">
+  <!-- 附近车辆数 -->
+  <cover-view class="weui-flex content">
+    <cover-view class="weui-flex__item item">
+      <cover-view class='item_text'>300米</cover-view>
+    </cover-view>
+    <cover-view class="weui-flex__item item">
+      <cover-view class='item_text'>600米</cover-view>
+    </cover-view>
+    <cover-view class="weui-flex__item item">
+      <cover-view class='item_text'>1公里</cover-view>
+    </cover-view>
+  </cover-view>
+</map>
+<!-- 底部按钮 -->
+<view class="weui-flex bottom">
+  <button class="weui-btn weui-flex__item" type='primary' bindtap='goLeft'>
+    按钮一
+  </button>
+  <button class="weui-btn weui-flex__item" hover-class='default_hover' type='default' bindtap='goRight'>
+    按钮二
+  </button>
+</view>

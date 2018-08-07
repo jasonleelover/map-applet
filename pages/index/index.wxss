@@ -1,0 +1,46 @@
+/**index.wxss**/
+.bottom{
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 34rpx;
+}
+.weui-btn {
+  margin: 0;
+}
+button[type="primary"] {
+  background-color: #75bb31;
+  color: #fff;
+}
+
+button[type="default"] {
+  background-color: #5a95d8;
+  color: #fff;
+}
+button::after {
+  border: none;
+  line-height: 100rpx;
+}
+button {
+  border-radius: 0;
+}
+.default_hover{
+  background-color: #4b7cb4!important;
+}
+/* 地图视图 */
+.content  {
+  height: 152rpx;
+  line-height: 152rpx;
+  background-color: #fff;
+  text-align: center;
+}
+
+.item {
+  padding: 20rpx 0;
+  border: 1rpx solid #b9b9bd;
+}
+
+.item_text {
+  height: 112rpx;
+  line-height: 112rpx;
+  font-size: 26rpx;
+}
